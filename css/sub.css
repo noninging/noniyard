@@ -1,0 +1,375 @@
+
+/*~~~~~~~~~~~~서브슬라이드~~~~~~~~~~~*/
+
+.subSlider
+{
+    background:url(../image/images/sub/subvisual_bg1.jpg) no-repeat center center;
+    height:560px;
+    text-align:center;
+    position: relative;
+}
+
+
+.subSdText
+{
+    position:absolute;
+    top:100px;
+    width:100%;
+    color: #fff;
+    letter-spacing:20px;
+    font-weight:500;
+}
+
+.subSdText p
+{
+    font-size:52px;
+    text-shadow:1px 1px 5px rgba(0, 0, 0, 0.35);
+    font-weight:300;
+}
+
+.subSdText .bigTx
+{
+    font-size:55px;
+    font-weight:500;
+}
+
+.subSdText .bigTx span 
+{
+    color:#F57A1D;
+    position:relative;
+}
+
+.bigTx span:after
+{
+    content:"";
+    width:175px;
+    height:1px;
+    background:#F57A1D;
+    position:absolute;
+    bottom:0;
+    left:0;
+    
+
+}
+
+.subSdText h2
+{
+    font-weight:100;
+    font-size:20px;
+    letter-spacing:15px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom:20px;
+    height:44px;
+    line-height:44px;
+    background:url(../image/images/sub/bracket_title.png) no-repeat center center;
+}
+
+
+
+/*~~~~~~~~~~~~서브네비~~~~~~~~~~~*/
+
+.subNav
+{
+    position:absolute;
+    bottom:0;
+    width:1200px;
+    background:#fff;
+    left:50%;
+    margin-left:-600px;
+    border-bottom:1px solid #ddd;
+    
+}
+
+.subNav>li/*>는 바로밑에만 상속 */
+{
+    float:left;
+    height:59px;
+    line-height:59px;
+ 
+}
+
+
+
+.subNavHome
+{
+    background:#F57A1D;
+}
+
+.companyInfo
+{
+    padding:0 30px;
+}
+
+
+.subNavMenu
+{
+    background:url(../image/images/sub/ar_snb.png) no-repeat center right;
+    text-align:left;
+    width:180px;
+    text-indent:25px;
+    border-right:1px solid #ddd;
+    border-left:1px solid #ddd;
+
+
+}
+
+.subNavMenu:hover .snb
+{
+    max-height:1000px;
+}
+
+.snb
+{
+    overflow:hidden;
+    transition:max-height 1s;
+    max-height:0;
+    text-align:left;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2)
+
+}
+
+.snb li
+{
+    background:#fff; 
+}
+
+.snb li a
+{
+    display:block;
+    border:1px solid #ddd;
+    border-bottom:0;
+}
+
+
+
+
+/*~~~~~~~~~~~~서브콘텐츠01~~~~~~~~~~~*/
+
+.subCon01
+{
+    padding-top:80px;
+    background:url(../image/images/sub/bg_introduction_info.png) no-repeat bottom;
+    height:820px;
+}
+
+.subCon01 h2
+{
+    font-size:40px;
+    font-weight:normal;
+    letter-spacing:-2px;
+    padding-bottom:30px;
+}
+
+.subCon01 h2:before
+{
+    width:30px;
+    height:2px;
+    content:"";
+    display:block;
+    background:#000;
+}
+
+.subCon01 h3
+{
+    font-size:20px;
+    padding-bottom:30px;
+    font-weight:normal;
+}
+dl,dt,dd,ul,li{
+    padding:0;
+    margin:0;
+}
+.subCon01 dl
+{
+    font-size:13px;
+    color:#999;
+    padding-bottom:15px;
+}
+
+.subCon01 dt, .subCon01 dd
+{
+    float:left;
+}
+
+.subCon01 dt
+{
+    color:#333;
+    width:80px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.subCon01 dd
+{
+    
+}
+.subCon01 dt:after
+{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:10px;
+    background:#999;
+    position: absolute;
+    right:0;
+    top:5px;
+    
+}
+.emailBtn
+{
+    background:url(../image/images/sub/bg_sendemail.png) no-repeat;
+    width:108px;
+    height:25px;
+    font-size:13px;
+    border:1px solid #ddd;
+    vertical-align: middle;
+    margin-top:30px;
+}
+
+.emailBtn:hover
+{
+    border-color:#000;
+    background-image:url(../image/images/sub/bg_sendemail_b.png);
+    transition:all 0.5s;
+}
+
+.emailBtn a
+{
+    display:block;
+    color:#999;
+}
+
+.emailBtn:hover a
+{
+    color:#000;
+    transition:color 0.5s;
+}
+
+.emailBtn span
+{
+    vertical-align: middle;
+    margin-left:10px;
+}
+
+.subCon01Info
+{
+    padding:75px;
+    margin-top:40px;
+}
+
+.subCon01Info h4
+{
+    font-size:24px;
+    font-weight:normal;
+    color:#fff;
+}
+
+.subCon01Info p
+{
+    font-size:14px;
+    line-height:23px;
+    color:#999;
+    margin-top: 30px;
+    letter-spacing:1px;
+}
+
+
+
+/*~~~~~~~~~~~~서브콘텐츠02~~~~~~~~~~~*/
+
+.subCon02
+{
+    padding:70px 0;
+}
+
+.subCon02 p{
+    font-size:20px;
+}
+.subCon02 span{
+    font-size:14px;
+    color:#82878B;
+    margin-top:3px;
+
+}
+
+.subCon02 span:before
+{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:14px;
+    background:#ddd;
+    margin:0 20px;
+}
+
+
+
+.subCon02Icon li
+{
+    float: left;
+    width:200px;
+    text-align:center;
+    padding-top:50px;
+    
+}
+
+.subCon02Icon p
+{
+    font-size:14px;
+    
+}
+
+/*~~~~~~~~~~~~서브콘텐츠03~~~~~~~~~~~*/
+
+.subCon03
+{
+    padding-bottom:70px;
+}
+
+.subCon03 p{
+    font-size:20px;
+}
+.subCon03 span{
+    font-size:14px;
+    color:#82878B;
+    margin-top:3px;
+
+}
+
+.subCon03 span:before
+{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:14px;
+    background:#ddd;
+    margin:0 20px;
+}
+
+.subCon03box
+{
+    padding-top:30px;
+}
+
+.subCon03box li
+{
+    float: left;
+    width:250px;
+    height:130px;
+    margin-right:66px;
+    margin-top:30px;
+
+}
+
+.subCon03box li:nth-child(4)
+{
+    margin-right:0;
+}
+
+.subCon03box p
+{
+    font-size:14px;
+    padding-top:10px;
+}
+
+
