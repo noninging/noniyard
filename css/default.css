@@ -1,6 +1,9 @@
-@charset "utf-8";
+/*기본설정*/
 
-body,p,div,h1,h2,h3,h4,h5,h6,h7,ul,li,dd,dl,dt
+
+@charset="utf-8";
+
+body,p,h1,h2,h3,h4,h5,h6,h7,ul,li,dd,dt
 {
     margin:0;
     padding:0;
@@ -8,51 +11,38 @@ body,p,div,h1,h2,h3,h4,h5,h6,h7,ul,li,dd,dl,dt
 
 body
 {
-    color:#333;
-    font-family: 'NotoSans',sans-serif;
+    min-width:1200px;
 }
 
 a
 {
-    text-decoration:none;
-    color:#333;
+    text-decoration: none;
+    color:#555;
 }
 
-ul
+a,h2,h3,h4,h5,h6,h7,p,span,li,ul,div
 {
-    list-style:none;
+    font-family:'Noto Sans KR', sans-serif;
+    letter-spacing:-0.5px;
+}
+
+
+ul li
+{
+    list-style: none
 }
 
 .cf:after
 {
     content:"";
-    display:block;
-    clear:both;
-}
-
-img
-{
-    outline:none;
+    display: block;
+    clear: both;
 }
 
 .inner
 {
-    width:1200px;
+    width: 1200px;
     margin:0 auto;
 }
 
-#bodyWrap
-{
-    width:100%
-}
 
-#containner
-{
-    margin-top:105px;
-    width:100%
-}
-
-#footer
-{
-    
-}
