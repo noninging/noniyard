@@ -1,193 +1,290 @@
 <!Doctype html>
-
 <html lang="ko">
     <head>
         <meta charset="utf-8">
-        <title>HOLLYS COFFEE</title>
-        <link rel="stylesheet" type="text/css" href="css/hollys_style.css">
+        <title>양산시청</title>
+        <link rel="stylesheet" type="text/css" href="css/defalt.css">
+        <link rel="stylesheet" type="text/css" href="css/slick.css">
+        <link rel="stylesheet" type="text/css" href="css/include.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
+        <script src="js/slick.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(".regular").slick({
+                    dots: true,
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    prevArrow:'<img src="images/prev_Btn.png">',
+                    nextArrow:'<img src="images/next_Btn.png">',
+                  });
+            })
+        </script>
     </head>
-    
-    <header id="Wrap">
-        <div class="hdrt inner cf">
-            <div class="utl">
-                <img src="images/gnb_smenu01.png">
-                <span><img src="images/gnb_smenu02.gif"></span>
-            </div>
-            <div class="utr">
-                <a href="#"><img src="images/util_01.gif"></a>
-                <a href="#"><img src="images/util_02.gif"></a>
-                <a href="#"><img src="images/util_05.gif"></a>
-                <a href="#"><img src="images/util_09.gif"></a>
-                <a href="#"><img src="images/util_chinese.gif"></a>
-            </div>
-        </div>
-        <div class="hdrb inner cf">
-             <h1><a href="#"><img src="images/logo.gif"></a></h1>
-             <ul class="gnb">
-                 <li><a href="#"><img src="images/gnb_01.gif"></a></li>
-                 <li><a href="#"><img src="images/gnb_02.gif"></a></li>
-                 <li><a href="#"><img src="images/gnb_03.gif"></a></li>
-                 <li><a href="#"><img src="images/gnb_04.gif"></a></li>
-                 <li><a href="#"><img src="images/gnb_05.gif"></a></li>
-                 <li><a href="#"><img src="images/gnb_06.gif"></a></li>
-             </ul>
-        </div>
-    </header>
-    
-    <div class="container">
-       
-        <div class="mainsd">
-            <img src="images/mainBanner_201909031045405130.jpg">
-        </div>
-        
-        <div class="con1 inner cf">
-            <div class="c1box1"><a href="#">
-                <img src="images/menu_tit.gif">
-                <p><img src="images/menu_img01.gif"></p>
-            </a></div>
-            
-            <div class="c1box2"><a href="#">
-                <img src="images/mall_tit.gif">
-                    <h3>할리스커피 기프트카드 및 할리스콘 구입</h3>
-                <ul>
-                    <li><a href="#">
-                        <img src="images/mall_img03.gif">
-                        <h4>COFFEE</h4>
-                    </a></li>
-                    <li><a href="#">
-                        <img src="images/mall_img04.gif">
-                        <h4>BEVERAGE</h4>
-                    </a></li>
-                    <li><a href="#">
-                        <img src="images/mall_img05.gif">
-                        <h4>BAKERY</h4>
-                    </a></li>
-                </ul>
-            </a></div>
-            
-            <div class="c1box3"><a href="#">
-                <img src="images/store_tit.gif">
-                <p><img src="images/store_img01.gif"></p>
-            </a></div>
-        </div>
-        <div class="con2 inner">
-            <img src="images/mainBanner_201706281034172160.jpg"><img src="images/mainBanner_201706281035570070.gif"><img src="images/mainBanner_201511040156219650.jpg">
-        </div>          
-        <div class="con3 cf inner">
-            <div class="c3box1">
-                <a href="#">
-                    <h5><img src="images/academy_tit.gif"></h5>
-                    <h6>할리스커피 아카데미와 함께하는 즐거운 카페여행</h6>
-                    <p class="quickbt"><img src="images/ico_arrow.gif"><span>바로가기</span></p>
-                </a>
-            </div>
-            <div class="c3box2">
-                <a href="#">
-                    <h5><img src="images/recruit_tit.gif"></h5>
-                    <h6>할리스에서 커피를 이해하고,문화를 만들어 갈 인재를 초대합니다!</h6>
-                    <p class="quickbt"><img src="images/ico_arrow.gif"><span>바로가기</span></p>
-                </a>
-            </div>
-            <div class="c3box3">
-                <a href="#">
-                    <h5><span><img src="images/news_tit.gif"></span><img src="images/ico_arrow.gif" width="17px">
-                    </h5>
-                    <div class="news">
-                        <ul>
-                            <li><a href="#">할리스공지웅앵웅애웅앵웅앵웅앵ㅇㅇ</a><span>07-28</span></li>
-                        </ul>
+    <!--------------------bodyWrap-------------------->
+    <body id="bodyWrap">
+        <!--------------------header-------------------->
+        <header id="header">
+            <!--------------------headerTop-------------------->
+            <div class="headerTop">
+            <!--메인슬라이드설명-->
+            <div class="mainSd">
+                <section class="regular slider">
+                    <div class="sd1">
+                        <p>통도사의 봄풍경</p>
                     </div>
-                    <div class="news">
-                        <ul>
-                            <li><a href="#">할리스공지웅앵웅애웅앵웅앵웅앵ㅇㅇ</a><span>07-28</span></li>
-                        </ul>
+                    <div class="sd2">
+                        <p>2019 삽량문화축전</p>
                     </div>
-                    <div class="news">
-                        <ul>
-                            <li><a href="#">할리스공지웅앵웅애웅앵웅앵웅앵ㅇㅇ</a><span>07-28</span></li>
-                        </ul>
+                    <div class="sd3">
+                        <p>양산 역사박물관</p>
                     </div>
-                    <div class="news">
-                        <ul>
-                            <li><a href="#">할리스공지웅앵웅애웅앵웅앵웅앵ㅇㅇ</a><span>07-28</span></li>
-                        </ul>
-                    </div>
-                    
-                    
-                </a>
+                </section>
             </div>
-            <div class="c3box4">
-                <a href="#">
-                    <ul class="cf">
-                        <li><img src="images/img_etc01.gif"><h4>가맹문의</h4></li>
-                        <li><img src="images/img_etc02.gif"><h4>아카데미<br>강좌</h4></li>
-                        <li><img src="images/img_etc03.gif"><h4>고객문의<br>&nbsp;&nbsp;</h4></li>
+            <!--------------------logo-------------------->
+            <h1><a href=""><img src="images/logo.png"></a></h1>
+            <!--------------------Utill-------------------->
+            <ul class="utill">
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">
+                    <select>
+                        <optgroup label="LANGUAGE"></optgroup>
+                        <option>LANGUAGE</option>
+                        <option>KOREAN</option>
+                        <option>ENGLISH</option>
+                        <option>CHINISE</option>
+                    </select>
+                </a></li>
+            </ul>
+            <!--------------------gnb-------------------->
+            <div class="gnb">
+                <ul class="gnbWrap">
+                <li>
+                    <a href="#">정보공개</a>
+                    <ul class="lnb">
+                        <li><a href="">정보공개안내</a></li>
+                        <li><a href="">사전정보공표목록</a></li>
+                        <li><a href="">정보공개신청ㆍ확인</a></li>
+                        <li><a href="">공공데이터개방</a></li>
+                        <li><a href="">규제개혁</a></li>
+                        <li><a href="">맞춤형복지예산공개</a></li>
                     </ul>
-                </a>
+                </li>
+                <li><a href="#">종합민원</a></li>
+                <li><a href="#">소통ㆍ참여</a></li>
+                <li><a href="#">시정정보</a></li>
+                <li><a href="#">양산소개</a></li>
+                <li><a href="#">분야별정보</a></li>
+                <li><a href="#"></a></li>
+                </ul> 
+            </div>
+            <!--------------------gnb-------------------->
+            </div>
+            <!--------------------headerTop-------------------->
+            <!--------------------headerMain-------------------->
+            <div class="headerMain">
+                <!--메인오른쪽-->
+                <div class="mainRightBg">
+                    <!--검색창-->
+                    <div class="mainSerch">
+                        <input type="text" placeholder="양산시가 궁금하다면?" maxlength="20">
+                    </div>
+                    <!--슬로건-->
+                    <p class="slogan">
+                        <img src="images/Ellipse%201%20copy.png" alt="함께 발전하는 균형성장도시">
+                    </p>
+                    <!--양산타워-->
+                    <div class="tower">
+                        <img src="images/main_img.png">
+                    </div>
+                    <!--양산타워-->
+                    <!--포털버튼-->
+                    <ul class="portal">
+                        <li class="portalIcon1"><a href=""><img src="images/Portal_ico.png"></a></li>
+                        <li class="portalIcon2"><a href=""><img src="images/Portal_ico-21.png"></a></li>
+                        <li class="portalIcon3"><a href=""><img src="images/Portal_ico-23.png"></a></li>
+                    </ul>
+                    <!--포털버튼-->
+                </div>
+                <!--sns-->
+                <ul class="sns">
+                    <li><a href="https://blog.naver.com/eyangsancity"><img src="images/sns_ico.png" alt="양산시블로그"></a></li>
+                    <li><a href="https://www.facebook.com/yangsancity"><img src="images/sns_ico-30.png" alt="양산시페이스북"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCv-B3slVOIL7mSQajbKACYw/featured"><img src="images/sns_ico-32.png" alt="양산시유튜브"></a></li>
+                    <li><a href="https://www.instagram.com/yangsancity/"><img src="images/sns_ico-34.png" alt="양산시인스타그램"></a></li>
+                    <li><a href="https://twitter.com/yangsancity"><img src="images/sns_ico-36.png" alt="양산시트위터"></a></li>
+                    <li><a href="https://story.kakao.com/ch/yangsancity"><img src="images/sns_ico-39.png" alt="양신시카카오스토리"></a></li>
+                    
+                </ul>
+            </div>
+            <!--------------------headerMain-------------------->
+        </header>
+        <!--------------------container-------------------->
+        <div class="container">
+            <!--------------------mainCon01-------------------->
+            <div class="mainCon01 cf">
+            <div class="inner">
+                <ul class="con1Menu">
+                    <li class="menu1"><a href="">주요뉴스</a></li>
+                    <li><a href="">양산시보</a></li>
+                    <li><a href="">보도자료</a></li>
+                </ul>
+                <div class="con1Sd">
+                    <ul class="c1Sd01 cf">
+                        <li><a href="">[시정뉴스]양산시립박물관 기증실 신축웅엥웅<img src="images/con1_photo.png"><span>2019.10.21<br>양산시립 박물관 기증실 신축개관<br>-지난 18일 기증,기탁유물의 날을 맞이하여<br>시민들에게 유물을 기탁받아 감사패를 수여하였습니다.그래서 웅앵우앵웅애웅</span></a></li>
+                        <li><a href="">[시정뉴스]2019년 우수 중소기업인상을 수여합니다.<img src="images/con1_photo2.png"><span>2019.10.18<br>시는 2006년부터 매년 탁월한 경영성과와<br> 고용창출로 지역경제 발전과 건전한 기업문화를 주도하는 </span></a></li>
+                        <li><a href="">[문화뉴스] 오정해의 소리 이야기<img src="images/con1_photo3.png"><span>2019.09.25<br>제74회 양산시민아카데미 개최<br>2019.10.23(수)오정해의 소리이야기가 웅상문화회관  대강당에서</span></a></li>
+                    </ul>
+                    <ul class="sdBtn cf">
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <!--------------------mainCon02-------------------->
+            <div class="mainCon02 cf inner">
+                <h2>시민<span>필독</span></h2>
+                <ul class="con2Box">
+                    <li><a href="">도시철도<br>선형변경<span>알림</span><span class="moreBtn"></span></a></li>
+                    <li><a href="">국지60호선<br>노선변경<span>알림</span><span class="moreBtn"></span></a></li>
+                    <li><a href="">국민참여<br>지진대피<span>훈련</span><span class="moreBtn"></span></a></li>
+                </ul>
+            </div>
+            <!--------------------mainCon03-------------------->
+            <div class="mainCon03 cf inner">
+                <h2>양산시청<span>정보</span></h2>
+                <ul class="con3Box1 cf">
+                    <li><a href=""><img src="images/map.png"></a></li>
+                    <li><a href=""><img src="images/map2.png"></a></li>
+                    <p><input type="text" placeholder="이름/전화번호 검색..." maxlength="20"></p>
+                </ul>
+                <ul class="con3Box2">
+                    <li><a href=""><img src="images/con3_logo.png"></a></li>
+                    <li class="con3Img"><a href=""><img src="images/con3_img2_Btn.png"></a></li>
+                </ul>
+                <p><img src="images/5th_img.png"><a href=""><img src="images/5th_tit.png"></a></p>
+            </div>
+            <!--------------------mainCon04-------------------->
+            <div class="mainCon04 cf inner">
+                <h2><span>시민참여</span>행사</h2>
+                <p class="con4Banner01"><a href=""><img src="images/con4_banner_1.png" alt="시민디자인교육배너"></a></p>
+                <p class="con4Banner02"><a href="http://www.yangsan.go.kr" target="_blank"><img src="images/con4_banner_2.png" alt="양산시청기존홈페이지보러가기"></a></p>
+                <ul class="con4Btn">
+                    <li><a href=""><img src="images/con4_up_Btn.png"></a></li>
+                    <li><a href=""><img src="images/con4_down_Btn.png"></a></li>
+                </ul>
+            </div>
+            <!--------------------mainCon05-------------------->
+            <div class="mainCon05">
+                <div class="inner cf">
+                    <h2>양산시<span>모아보기</span></h2>
+                    <ul class="con5Icon01">
+                        <li><a href=""><img src="images/con5_icon.png"><p>도서관통합</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-117.png"><p>평생학습<br>센터</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-119.png"><p>시민정보화<br>교육</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-121.png"><p>시립박물관</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-123.png"><p>양산시<br>복지재단</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-125.png"><p>시민안전<br>체험관</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-127.png"><p>보건소</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-130.png"><p>웅상출장소</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-132.png"><p>실시간<br>대기질</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-134.png"><p>기업지원<br>센터</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-136.png"><p>생활공간<br>정보</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-138.png"><p>생활공간<br>정보</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-140.png"><p>온라인<br>현수막</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-142.png"><p>양산타워</p></a></li>
+                    </ul>
+                    <ul class="con5Icon02">
+                        <li><a href=""><img src="images/con5_icon-159.png"><p>공동주택<br>관리시스템</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-161.png"><p>항노화산업</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-163.png"><p>양산영상<br>미디어센터</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-165.png"><p>상권분석</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-167.png"><p>청소년광장</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-168.png"><p>양산3D<br>과학체험관</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-170.png"><p>공공자전거</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-172.png"><p>시내버스</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-173.png"><p>지방세납부<br>및 조회</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-181.png"><p>주정차<br>과태료</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-183.png"><p>상하수도<br>요금조회</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-175.png"><p>차량등록</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-177.png"><p>육아종합<br>지원센터</p></a></li>
+                        <li><a href=""><img src="images/con5_icon-179.png"><p>시설관리<br>공단</p></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="con4 inner cf">
-                <h2>
-                    <a href="#"><img src="images/sns_tit.gif"></a>
-                    <a href="#"><img src="images/sns_facebook.gif"></a>
-                    <a href="#"><img src="images/sns_instagram.gif"></a>
-                    <a href="#"><img src="images/sns_blog.gif"></a>
-                </h2>
-                <div class="c4box">
-                <div class="c4img">
-                    <a href="#"><img src="images/48_48.png"></a>   
+        <!--------------------footer-------------------->
+        <footer id="footer">
+            <div class="footerTop cf">
+                <div class="fmsiteTit">
+                    Family Site<a href=""><span>전체보기</span></a>
                 </div>
-                <div class="c4tx cf">
-                    <h6><span>2017-11-15 06:28</span><br>&#35;할리스커피 with 따뜻한 커피 한 잔과 함께 하는 나만의 시간 </h6>
-                      
+                <div class="fmsiteList">
+                     <ul>
+                        <li><img src="images/footer_prevBtn.png"></li>
+                        <li><a href="">농립사업정보시스템</a></li>
+                        <li><a href="">복지로 온라인신청</a></li>
+                        <li><a href="">귀농귀촌종합센터</a></li>
+                        <li><a href="">경상남도지역사회서비스지원단</a></li>
+                        <li><a href="">COOP협동조합</a></li>
+                        <li><a href=""><img src="images/footer_nextBtn.png"></a></li>
+                    </ul>
                 </div>
+            </div>
+            <div class="footerBottom cf">
+                <!--푸터바텀 왼쪽-->
+                <div class="csLeft">
+                    <div class="footerCs01">
+                        <p>대표전화<img src="images/footerbt_call.png"></p>
+                        <span>055)392-2114</span> 
+                    </div>
+                    <div class="footerCs02">
+                        <p><img src="images/footerbt_fax.png">FAX 팩스</p>
+                        <span>055)392-2114</span> 
+                    </div>
+                    <div class="footerCs03">
+                        <p>당직실<span>(야간)</span><img src="images/footerbt_night.png"></p>
+                        <span>055)392-2114</span> 
+                    </div>
                 </div>
-                <div class="c4box">
-                <div class="c4img">
-                    <a href="#"><img src="images/48_48.png"></a>   
+                <!--푸터바텀 오른쪽-->
+                <div class="infoRight">
+                    <div class="inFo cf">
+                        <h3><img src="images/footer_logo.png"></h3>
+                        <h4>(우)50624 경남남도 양산시 중앙로39(남부동)</h4>
+                        <p class="infoTx">우리 홈페이지에 게시된 전자우편주소는 무단으로 수집할 수 없으며,위반시 정보통신망법에 의해 처벌됩니다.</p>
+                        <p class="infoCopy">Copyright ⓒ yangsan.go.kr/All Rights Reserved.</p>
+                        <ul class="markIcon">
+                            <li><img src="images/footer_mark.png" alt="wa마크"></li>
+                            <li><img src="images/footer_mark2.png" alt="마크2"></li>
+                        </ul>
+                    </div>
+                    <ul class="footerSite">
+                        <li><a href="">본청직속기기관</a></li>
+                        <li><a href="">읍ㆍ면ㆍ동</a></li>
+                        <li><a href="">부속사이트</a></li>
+                        <li><a href="">관내유관기관</a></li>
+                        <li><a href="">시ㆍ군구 홈페이지</a></li>
+                    </ul>
                 </div>
-                <div class="c4tx cf">
-                    <h6><span>2017-11-15 06:28</span><br>&#35;할리스커피 with 따뜻한 커피 한 잔과 함께 하는 나만의 시간 </h6>
-                      
-                </div>
-                </div>
-                               <div class="c4box">
-                <div class="c4img">
-                    <a href="#"><img src="images/48_48.png"></a>   
-                </div>
-                <div class="c4tx cf">
-                    <h6><span>2017-11-15 06:28</span><br>&#35;할리스커피 with 따뜻한 커피 한 잔과 함께 하는 나만의 시간 </h6>
-                      
-                </div>
-                </div>
-                <div class="c4box">
-                <div class="c4img">
-                    <a href="#"><img src="images/48_48.png"></a>   
-                </div>
-                <div class="c4tx cf">
-                    <h6><span>2017-11-15 06:28</span><br>&#35;할리스커피 with 따뜻한 커피 한 잔과 함께 하는 나만의 시간 </h6>
-                      
-                </div>
-                </div>
-
-        </div>
-    </div>
-    
-    <footer id="footer">
-       <div class="foot inner">
-          <ul>
-              <li>유통관리시스템</li>
-              <li>개인정보취급방침</li>
-              <li>서비스이용약관</li>
-              <li>멤버쉽이용약관</li>
-              <li>고객문의</li>
-              <li>사이트맵</li>
-          </ul>
-          <p>
-                법인명 : &#40;주&#41;할리스에프엔비  대표자 : 강연희  사업자등록번호 : 456456456  통신판매업 : 제2019-노니랜드-1004호<br>주소 : 노니특별시 노시구 노니동 노시오피스텔 TOT 라운지  대표전화 : 000-000-000<br>COPYRIGHT 2019 HOLLYS FNB Co,Ltd All Rights Reserved 
-          </p>
-        
-           
-       </div>
-    </footer>
+                <ul class="inFo2">
+                    <li><a href="">개인정보처리방침</a></li>
+                    <li><a href="">저작권정책</a></li>
+                    <li><a href="">홈페이지불편접수</a></li>
+                    <li><a href="">뷰어다운로드</a></li>
+                    <li><a href="">찾아오시는길</a></li>
+                    <li><a href="">사이트맵</a></li>
+                </ul>
+            </div>
+            <div class="topBtn">
+                <a href="#"><img src="images/top_Btn.png"></a>
+            </div>
+        </footer>
+    </body>
+    <!--------------------bodyWrap-------------------->
 </html>
