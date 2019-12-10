@@ -10,10 +10,6 @@
 
 /*~~~~~~~메인슬라이드설명~~~~~~~~*/
 
-.regular{
-    position:relative;
-}
-
 .regular div
 {
     height:800px;
@@ -47,7 +43,7 @@
 .slick-arrow{
     position:absolute;
     top:50%;
-    right:360px;
+    right:250px;
     margin-top:-15px;
     z-index:1;
     cursor:pointer;
@@ -55,7 +51,7 @@
 
 .regular img:first-child
 {
-    left:360px;
+   right:1670px;
 }
 
 
@@ -104,9 +100,8 @@
 .headerTop h1
 {
     position:absolute;
-    z-index:3;
     top:40px;
-    left:360px;   
+    right:1360px;
 }
 
 
@@ -319,7 +314,7 @@ select::-ms-expand { display: none; }
 .sns
 {
     position:absolute;
-    left:420px;
+    right:1450px;
     top:-530px;
 }
 
@@ -400,6 +395,10 @@ select::-ms-expand { display: none; }
 
 
 /*~~~~~~~~푸터비텀~~~~~~~~~*/
+
+.footerBottom
+{
+}
 
 .footerBottom .csLeft, .infoRight
 {
@@ -542,8 +541,7 @@ select::-ms-expand { display: none; }
 .footerSite
 {
     float:left;
-    margin-top:45px;
-    width:532px;
+    margin-top:65px;
 }
 
 .footerSite li
@@ -564,14 +562,12 @@ select::-ms-expand { display: none; }
 }
 
 
-
 .inFo2{
     height:60px;
     line-height:60px;
     font-size:14px;
-    float:left;
     background:#EBEBEB;
-    padding-left:70px;
+    text-align: center;
 }
 
 
@@ -587,10 +583,6 @@ select::-ms-expand { display: none; }
     height:8px;
     background:#888;
     margin:0 40px;
-}
-
-.inFo2 li:last-child{
-    padding-right:304px;
 }
 
 .inFo2 li:last-child:after{
